@@ -1,0 +1,12 @@
+http:
+  port: "8080"
+  readTimeout: 10s
+  writeTimeout: 20s
+  idleTimeout: 60s
+  shutdownTimeout: 30s
+postgres:
+  url: 'host=test_task_aleduc_postgres port=5432 user=postgres dbname=test-db password=password sslmode=disable'
+notification:
+  closeTimeout: 4s
+  recheckTimeout: 2s
+  bufferSize: 100
